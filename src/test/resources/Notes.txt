@@ -1,0 +1,22 @@
+Manual Testing			: Tester will behave as end user. He will test the software manually.
+Automation testing		: Testing the functionality of the software using QTP,Load Runner,JMeter,Selenium etc
+Testing stages/levels	:
+				stage-1 : Unit Testing 			- using junit by developer.
+				stage-2 : Integretion Testing 	- using junit by developer.
+				stage-3 : Smoke Testing 		- by Tester
+				stage-4 : Functional Testing 	- by Tester
+				stage-5 : Regression Testing 	- by Tester
+				stage-6 : Performance Testing 	- by Tester
+				
+				
+unit-testing
+------------
+
+junit4 			junit5
+----------------------
+@Before			@BeforeEach
+@After			@AfterEach
+@BeforeClass	@BeforeAll
+@AfterClass		@AfterAll
+@Ignore			@Disabled
+@Category		@Nested
